@@ -28,6 +28,13 @@ h1,
 h2,
 p,
 ul,
-ol {
+ol,
+li {
   margin: 15px 0px;
+}
+h1,
+h2,
+h3,
+span {
+  color: hsl(14, 45%, 36%);
 }
