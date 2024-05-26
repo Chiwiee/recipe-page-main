@@ -34,7 +34,8 @@ li {
 }
 h2,
 h3,
-span {
+span,
+.value {
   color: hsl(14, 45%, 36%);
 }
 .prep-time h3 {
@@ -65,4 +66,14 @@ ul,
 ol,
 li {
   margin-left: 12px;
+}
+div.table {
+  display: flex;
+}
+.name {
+  width: 700px;
+}
+.value {
+  width: 700px;
+  font-weight: 900;
 }
