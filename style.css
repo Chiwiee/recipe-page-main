@@ -40,6 +40,12 @@ span {
 .prep-time h3 {
   color: hsl(332, 51%, 32%);
 }
+div.prep-time {
+  background-color: hsla(274, 42%, 63%, 0.076);
+  border: none;
+  border-radius: 20px;
+  padding: 50px;
+}
 h1 {
   font-size: 70px;
 }
@@ -59,4 +65,7 @@ ul,
 ol,
 li {
   margin-left: 12px;
+}
+div.table {
+  display: inline;
 }
