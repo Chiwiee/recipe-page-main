@@ -32,6 +32,11 @@ ol,
 li {
   margin: 15px 0px;
 }
+li,
+p {
+  text-wrap: break-word;
+  font-size: 16px;
+}
 h1,
 h2,
 h3,
