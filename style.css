@@ -13,7 +13,7 @@ body {
 }
 .container {
   height: auto;
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -32,12 +32,6 @@ ol,
 li {
   margin: 15px 0px;
 }
-li,
-p {
-  text-wrap: break-word;
-  font-size: 16px;
-}
-h1,
 h2,
 h3,
 span {
@@ -45,4 +39,24 @@ span {
 }
 .prep-time h3 {
   color: hsl(332, 51%, 32%);
+}
+h1 {
+  font-size: 70px;
+}
+li,
+p,
+span {
+  font-size: 22px;
+}
+h2,
+h3 {
+  font-size: 40px;
+}
+span {
+  font-weight: bolder;
+}
+ul,
+ol,
+li {
+  margin-left: 12px;
 }
